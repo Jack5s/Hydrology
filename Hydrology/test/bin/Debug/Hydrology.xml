@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hydrology</name>
+    </assembly>
+    <members>
+        <member name="T:Hydrology.Flow">
+            <summary>
+            水流分析
+            </summary>
+        </member>
+        <member name="M:Hydrology.Flow.#ctor(System.Double[0:,0:])">
+            <summary>
+            构造函数
+            </summary>
+            <param name="dem">高程数据</param>
+        </member>
+        <member name="M:Hydrology.Flow.Fill">
+            <summary>
+            洼地填充
+            </summary>
+        </member>
+        <member name="M:Hydrology.Flow.FlowDirection">
+            <summary>
+            求水流方向
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Hydrology.Flow.Accumulation(System.Int32[0:,0:])">
+            <summary>
+            求汇流累积量
+            </summary>
+            <param name="Direction">水流方向矩阵</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
